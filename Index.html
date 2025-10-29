@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portfolio - I Gede Sila Merta Dana</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #121212;
+  color: #e0e0e0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #1e1e1e;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.85);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin: 0;
+  letter-spacing: 1.5px;
+  color: #90caf9;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #b0bec5;
+}
+
+main {
+  flex: 1;
+  padding: 2rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+section {
+  margin-bottom: 3rem;
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.9);
+}
+
+section h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  border-bottom: 3px solid #90caf9;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #bbdefb;
+}
+
+#about p {
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #cfd8dc;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skills ul li {
+  background: #3949ab;
+  color: white;
+  padding: 0.6rem 1rem;
+  margin: 0.2rem;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(25,32,113,0.6);
+  user-select: none;
+  transition: transform 0.2s ease;
+}
+
+#skills ul li:hover {
+  transform: scale(1.1);
+  cursor: default;
+  box-shadow: 0 4px 12px rgba(57,73,171,0.9);
+}
+
+#projects .project-item {
+  background: #283593;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #1a237e;
+  transition: background-color 0.3s ease;
+}
+
+#projects .project-item:hover {
+  background: #3949ab;
+}
+
+#projects .project-item h3 {
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #e8eaf6;
+}
+
+#projects .project-item p {
+  margin: 0 0 0.8rem 0;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #c5cae9;
+}
+
+#projects .project-item a {
+  color: #90caf9;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+#projects .project-item a:hover {
+  text-decoration: underline;
+  color: #bbdefb;
+}
+
+#contact p {
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #cfd8dc;
+}
+
+#contact .social-links a {
+  display: inline-block;
+  color: #90caf9;
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+#contact .social-links a:hover {
+  color: #bbdefb;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    padding: 1rem 1rem;
+  }
+
+  #skills ul {
+    justify-content: center;
+  }
+
+  #projects .project-item {
+    padding: 1rem;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>I Gede Sila Merta Dana</h1>
+  <p>Developer &amp; Programmer</p>
+</header>
+<main>
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Halo! Saya seorang programmer yang ahli dalam membangun aplikasi web dan solusi teknologi modern. Saya suka belajar hal baru dan mengerjakan proyek yang menantang.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Keahlian</h2>
+    <ul>
+      <li>JavaScript</li>
+<li>Python</li>
+<li>CSS</li>
+<li>HTML</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Proyek</h2>
+    
+  </section>
+
+  <section id="contact">
+    <h2>Kontak</h2>
+    <p>Email: <a href="mailto:merta020810@gmail.com" style="color:#90caf9;">merta020810@gmail.com</a></p>
+    <div class="social-links">
+      <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+      <a href="https://wa.me/qr/JLAKVZKEBVAUB1" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WhatsApp</a>
+      <a href="https://www.instagram.com/merta01._?igsh=ZXdsY2hqb2xtazN3" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+    </div>
+  </section>
+</main>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Skills
+  const inputSkill = document.getElementById('input-skill');
+  const btnAddSkill = document.getElementById('btn-add-skill');
+  const skillsList = document.getElementById('skills-list');
+
+  btnAddSkill.addEventListener('click', () => {
+    const skill = inputSkill.value.trim();
+    if (skill) {
+      const skillItem = document.createElement('div');
+      skillItem.textContent = skill;
+      skillsList.appendChild(skillItem);
+      inputSkill.value = '';
+    }
+  });
+
+  // Projects
+  const inputProjectTitle = document.getElementById('input-project-title');
+  const inputProjectDesc = document.getElementById('input-project-desc');
+  const inputProjectLink = document.getElementById('input-project-link');
+  const btnAddProject = document.getElementById('btn-add-project');
+  const projectsList = document.getElementById('projects-list');
+
+  btnAddProject.addEventListener('click', () => {
+    const title = inputProjectTitle.value.trim();
+    const desc = inputProjectDesc.value.trim();
+    const link = inputProjectLink.value.trim();
+    if (title && desc && link) {
+      const projectItem = document.createElement('div');
+      const projectLink = document.createElement('a');
+      projectLink.href = link;
+      projectLink.textContent = title;
+      projectLink.target = '_blank';
+      projectItem.appendChild(projectLink);
+      const projectDesc = document.createElement('p');
+      projectDesc.textContent = desc;
+      projectItem.appendChild(projectDesc);
+      projectsList.appendChild(projectItem);
+      inputProjectTitle.value = '';
+      inputProjectDesc.value = '';
+      inputProjectLink.value = '';
+    }
+  });
+
+  // Download Portfolio HTML
+  const btnDownload = document.getElementById('btn-download');
+  const previewFrame = document.getElementById('preview-frame');
+
+  btnDownload.addEventListener('click', () => {
+    const name = document.getElementById('input-name').value.trim();
+    const profession = document.getElementById('input-profession').value.trim();
+    const about = document.getElementById('input-about').value.trim();
+    const email = document.getElementById('input-email').value.trim();
+    const github = document.getElementById('input-github').value.trim();
+    const wa = document.getElementById('input-wa').value.trim();
+    const ig = document.getElementById('input-ig').value.trim();
+
+    // Collect skills
+    const skills = Array.from(skillsList.children).map(el => el.textContent);
+
+    // Collect projects
+    const projects = Array.from(projectsList.children).map(projectEl => {
+      const linkEl = projectEl.querySelector('a');
+      const descEl = projectEl.querySelector('p');
+      return {
+        title: linkEl ? linkEl.textContent : '',
+        link: linkEl ? linkEl.href : '',
+        description: descEl ? descEl.textContent : ''
+      };
+    });
+
+    // Generate portfolio HTML content
+    const portfolioHTML = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portfolio - ${name}</title>
+<style>
+  body { font-family: Arial, sans-serif; padding: 1rem; }
+  h1, h2 { color: #333; }
+  ul { list-style-type: disc; margin-left: 1.5rem; }
+  a { color: #0066cc; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+  <h1>${name}</h1>
+  <h2>${profession}</h2>
+  <section>
+    <h3>Tentang Saya</h3>
+    <p>${about}</p>
+  </section>
+  <section>
+    <h3>Keahlian</h3>
+    <ul>
+      ${skills.map(skill => `<li>${skill}</li>`).join('')}
+    </ul>
+  </section>
+  <section>
+    <h3>Proyek</h3>
+    <ul>
+      ${projects.map(proj => `<li><a href="${proj.link}" target="_blank">${proj.title}</a><p>${proj.description}</p></li>`).join('')}
+    </ul>
+  </section>
+  <section>
+    <h3>Kontak</h3>
+    <ul>
+      ${email ? `<li>Email: <a href="mailto:${email}">${email}</a></li>` : ''}
+      ${github ? `<li>GitHub: <a href="${github}" target="_blank">${github}</a></li>` : ''}
+      ${wa ? `<li>WhatsApp: <a href="${wa}" target="_blank">${wa}</a></li>` : ''}
+      ${ig ? `<li>Instagram: <a href="${ig}" target="_blank">${ig}</a></li>` : ''}
+    </ul>
+  </section>
+</body>
+</html>
+    `;
+
+    // Show preview in iframe
+    const previewDoc = previewFrame.contentDocument || previewFrame.contentWindow.document;
+    previewDoc.open();
+    previewDoc.write(portfolioHTML);
+    previewDoc.close();
+
+    // Trigger download
+    const blob = new Blob([portfolioHTML], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${name.replace(/\s+/g, '_').toLowerCase()}_portfolio.html`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
+});
+</script>
+</body>
+</html>
